@@ -20,7 +20,7 @@ CREATE TABLE pv (
    KEY idx_user_date (user_id, created_at),
    UNIQUE KEY uniq_user_url_time (user_id, url(255), created_at)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
+```
 ## Пояснення змін у SQL
 
 ### Типи колонок
